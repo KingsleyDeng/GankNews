@@ -1,0 +1,54 @@
+package com.zte.ganknews.fragment.guokr;
+
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+
+public class GuokrHandpickFragment extends Fragment
+        implements GuokrHandpickContract.View {
+
+
+    public GuokrHandpickFragment() {
+        // Requires an empty constructor.
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Nullable
+    @Override
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        return super.onCreateView(inflater, container, savedInstanceState);
+    }
+
+    @Override
+    public void setPresenter(GuokrHandpickContract.Presenter presenter) {
+
+    }
+
+    @Override
+    public void initViews(View view) {
+
+    }
+
+    @Override
+    public boolean isActive() {
+        return false;
+    }
+
+    @Override
+    public void setLoadingIndicator(boolean active) {
+
+    }
+
+    @Override
+    public void showResult() {
+
+    }
+}
