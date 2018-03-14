@@ -4,6 +4,9 @@ import android.support.annotation.NonNull;
 
 import com.zte.ganknews.BasePresenter;
 import com.zte.ganknews.BaseView;
+import com.zte.ganknews.data.DoubanMomentNewsPosts;
+
+import java.util.List;
 
 /**
  * Created by Stephen on 2018/2/28.
@@ -17,7 +20,7 @@ public interface DoubanMomentContract {
 
         boolean isActive();
 
-        void showResult();
+        void showResult(@NonNull List<DoubanMomentNewsPosts> list);
     }
 
     interface Presenter extends BasePresenter {
