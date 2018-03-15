@@ -33,6 +33,8 @@ public class DoubanMomentFragment extends Fragment implements DoubanMomentContra
     private LinearLayoutManager mLayoutManager;
     private FloatingActionButton fab;
 
+    private DoubanMomentNewsAdapter mAdapter;
+
     private int mListSize = 0;
     private int mYear, mMonth, mDay;
 
@@ -123,5 +125,6 @@ public class DoubanMomentFragment extends Fragment implements DoubanMomentContra
     public void showResult(@NonNull List<DoubanMomentNewsPosts> list) {
 
     }
+
 
 }

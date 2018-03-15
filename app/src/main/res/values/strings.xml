@@ -6,5 +6,6 @@
     <string name="timeline">Timeline</string>
     <string name="fab_description">选择日期</string>
     <string name="empty_content">nothing</string>
+    <string name="image_view_cover_desc">Cover</string>
 
 </resources>
