@@ -11,6 +11,7 @@ public class DoubanMomentPresenter implements DoubanMomentContract.Presenter {
     @NonNull
     private final DoubanMomentContract.View mView;
 
+
     public DoubanMomentPresenter(@NonNull DoubanMomentContract.View mView) {
 
         this.mView = mView;
